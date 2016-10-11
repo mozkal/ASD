@@ -5,7 +5,7 @@
 #define MAX_N 500003
 #define MAX_LOG_N 20
 
-long log_n = -1;
+long log_n = -1; //inicjalizowane w main
 long farthest_down_d[MAX_N], farthest_down_v[MAX_N], 
 	 farthest_up_d[MAX_N], farthest_up_v[MAX_N],
 	 farthest_d[MAX_N], farthest_v[MAX_N],
